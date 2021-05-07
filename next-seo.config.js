@@ -1,7 +1,6 @@
 const site = `https://${process.env.VERCEL_URL}`;
 const siteName = 'Pudim';
-const description =
-  'Uma singela homenagem a um dos sites mais antigos do Brasil';
+const description = 'Uma homenagem a um dos sites mais antigos do Brasil';
 
 export default {
   defaultTitle: siteName,
