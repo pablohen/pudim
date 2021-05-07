@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <title>Pudim</title>
       <DefaultSeo {...SEO} />
-
       <Component {...pageProps} />
     </>
   );
