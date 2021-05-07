@@ -13,7 +13,7 @@ export default {
     description,
     images: [
       {
-        url: `${site}/pudim.jpg`,
+        url: 'https://pudim.pablohen.vercel.app/pudim.jpg',
         width: 640,
         height: 480,
         alt: 'Pudim',
