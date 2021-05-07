@@ -15,7 +15,6 @@ body {
   height: 100vh;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
+.pudim {
+  margin: 0 1rem;
 }

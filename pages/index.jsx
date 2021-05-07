@@ -7,8 +7,8 @@ const Home = () => (
     <NextSeo title="Home" />
 
     <main className="container">
-      <div>
-        <Image src="/pudim.jpg" alt="pudim" width="640px" height="480px" />
+      <div className="pudim">
+        <Image src="/pudim.jpg" alt="pudim" width={640} height={480} />
         <address>
           <a href="mailto:pudim@pudim.com.br">pudim@pudim.com.br</a>
         </address>
