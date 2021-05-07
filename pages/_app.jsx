@@ -8,7 +8,6 @@ import SEO from '../next-seo.config';
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <title>Pudim</title>
       <DefaultSeo {...SEO} />
       <Component {...pageProps} />
     </>
