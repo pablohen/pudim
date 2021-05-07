@@ -1,12 +1,14 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
-    <div className="container">
+    <main className="container">
       <div>
-        <img src="pudim.jpg" alt="pudim" className="responsive" />
+        <Image src="/pudim.jpg" alt="pudim" width="640px" height="480px" />
         <address>
           <a href="mailto:pudim@pudim.com.br">pudim@pudim.com.br</a>
         </address>
       </div>
-    </div>
+    </main>
   );
 }
