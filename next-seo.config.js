@@ -1,6 +1,7 @@
 const site = 'https://pudim.pablohen.vercel.app';
 const siteName = 'Pudim';
-const description = 'Uma homenagem a um dos sites mais antigos do Brasil';
+const description =
+  'Uma singela homenagem a um dos sites mais antigos do Brasil';
 
 export default {
   defaultTitle: siteName,
@@ -13,10 +14,7 @@ export default {
     description,
     images: [
       {
-        url: 'https://pudim.pablohen.vercel.app/pudim.jpg',
-        width: 640,
-        height: 480,
-        alt: 'Pudim',
+        url: `${site}/pudim.jpg`,
       },
     ],
   },
