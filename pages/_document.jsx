@@ -13,10 +13,6 @@ class MyDocument extends Document {
       <Html lang="pt-BR">
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <meta
-            name="description"
-            content="Uma homenagem a um dos sites mais antigos e leves do Brasil"
-          />
           <DefaultSeo {...SEO} />
         </Head>
         <body>
