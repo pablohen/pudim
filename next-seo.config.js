@@ -1,4 +1,4 @@
-const site = 'https://pudim.pablohen.vercel.app';
+const site = process.env.VERCEL_URL;
 const siteName = 'Pudim';
 const description =
   'Uma singela homenagem a um dos sites mais antigos do Brasil';
