@@ -1,11 +1,10 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import '../styles/globals.css';
 import { DefaultSeo } from 'next-seo';
-import SEO from '../next-seo.config';
+import SEO from '../../next-seo.config';
+import { AppProps } from 'next/app';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo {...SEO} />
